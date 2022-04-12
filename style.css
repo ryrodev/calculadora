@@ -50,7 +50,23 @@ button:hover{
     color: black;
     text-align: right;
     padding: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
+    /*Scroll*/
+    ::-webkit-scrollbar{
+        height: 4px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: grey;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: blueviolet;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background-color: indigo;
+    }
+
 
 .copyright {
 	color: #FFFFFF;
